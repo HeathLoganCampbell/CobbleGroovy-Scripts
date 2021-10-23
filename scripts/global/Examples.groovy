@@ -47,5 +47,3 @@ Events.subscribe(AsyncPlayerChatEvent.class).handler{
     it.setFormat(CC.red + "%s: %s")
     it.getPlayer().sendMessage("ABCCC")
 }.bindWith(registry)
-
-Bukkit.get
